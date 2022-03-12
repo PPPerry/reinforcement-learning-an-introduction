@@ -2,11 +2,25 @@
 
 [![Build Status](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction.svg?branch=master)](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction)
 
-Python replication for Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/book/the-book-2nd.html)
+# Sources for reinforcement learning
+
+- Reinforcement Learning: An Introduction资源合集：http://incompleteideas.net/book/the-book-2nd.html
+
+- Key Papers in Deep RL：https://spinningup.openai.com/en/latest/spinningup/keypapers.html
+
+- David Silver强化学习公开课中文讲解及实践： https://www.zhihu.com/column/reinforce
+
+- David Silver课程代码：https://github.com/dalmia/David-Silver-Reinforcement-learning
+
+- 强化学习库：https://github.com/tensorlayer/RLzoo
+
+
+
+# Python replication for Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/book/the-book-2nd.html)
 
 > If you have any confusion about the code or want to report a bug, please open an issue instead of emailing me directly, and unfortunately I do not have exercise answers for the book.
 
-# Contents 
+## Contents 
 
 ### Chapter 1
 1. Tic-Tac-Toe
