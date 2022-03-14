@@ -327,20 +327,20 @@ def compete(turns):
 # So we test whether the AI can guarantee at least a tie if it goes second.
 def play():
     while True:
-        player1 = HumanPlayer()
-        player2 = Player(epsilon=0)
+        player2 = HumanPlayer()
+        player1 = Player(epsilon=0)
         judger = Judger(player1, player2)
-        player2.load_policy()
+        player1.load_policy()
         winner = judger.play()
-        if winner == player2.symbol:
+        if winner == player1.symbol:
             print("You lose!")
-        elif winner == player1.symbol:
+        elif winner == player2.symbol:
             print("You win!")
         else:
             print("It is a tie!")
 
 
 if __name__ == '__main__':
-    train(int(1e5))
-    compete(int(1e3))
+    # train(int(1e5))
+    # compete(int(1e3))
     play()
