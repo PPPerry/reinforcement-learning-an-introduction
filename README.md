@@ -100,7 +100,7 @@
 
 
 # Environment
-* python 3.6 
+* python 3.8
 * numpy
 * matplotlib
 * [seaborn](https://seaborn.pydata.org/index.html)
